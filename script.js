@@ -14,6 +14,6 @@ function somar(){
     if(tela){
         document.querySelector('.tela').innerHTML = eval(tela)
     }else{
-        document.querySelector('.tela').innerHTML = 'Nenhum comandozis';
+        document.querySelector('.tela').innerHTML = 'Nenhum comando';
     }
 }
